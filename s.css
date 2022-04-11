@@ -1,0 +1,24 @@
+.first {display: flex;
+    flex-direction: row;
+    height: 400px;
+    justify-content: space-around;
+
+}
+.second{flex: 50%;
+    background-color: rgb(5, 98, 110);
+    padding-left: 50px;
+
+}
+.third{flex: 50%;
+    background-color: rgb(112, 187, 216);
+    padding-left: 50px;
+    padding-top: 50px;
+    justify-content: space-around;
+
+    animation: myanimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes myanimation {
+    from background-color:blu
+ }
