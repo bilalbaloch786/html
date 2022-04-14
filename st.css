@@ -1,0 +1,88 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    margin-right: 20px;
+    padding-left: 100px;
+    padding-top: 50px;
+
+}
+.mid {
+    width: 400px;
+    height: 200px;
+    border-radius: 15px;
+    border:2px solid black;
+    
+    
+}
+.a, .b, .c, .d, .e, .f, .g, .h{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12)
+     0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px,
+      rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-size: cover;
+
+}
+.a {
+    position: relative;
+    right: 10px;
+    background-color: aqua;
+    background-image: url(A.jpg);
+}
+.b{
+    position: relative;
+    right: 20px;
+    background-color: rgb(12, 78, 78);
+    background-image: url(B.jpg);
+    background-position: center;
+}
+.c {
+    position: relative;
+    right: 30px;
+    background-color: rgb(68, 0, 255);
+    background-image: url(C.jpg);
+    background-position: center;
+}
+.d {
+    position: relative;
+    right: 40px;
+    background-color: rgb(187, 255, 0);
+    background-image: url(D.jpg);
+    background-position: center;
+}
+.e {
+    position: relative;
+    right: 50px;
+    background-color: rgb(255, 0, 149);
+    background-image: url(E.jpg);
+    background-position: center;
+}
+.f {
+    position: relative;
+    right: 60px;
+    background-color: rgb(255, 0, 0);
+    background-image: url(F.jpg);
+    background-position: center;
+}
+.g {
+    position: relative;
+    right: 70px;
+    background-color: rgb(47, 0, 255);
+    background-image: url(G.jpg);
+    background-position: center;
+}
+.h {
+    position: relative;
+    right: 80px;
+    background-color: rgb(247, 0, 255);
+    background-image: url(I.jpg);
+    background-position: center;
+}
+
+.a:hover, .b:hover, .c:hover, .d:hover, .e:hover, .f:hover, .g:hover, .h:hover{
+    transform: scale(1.2);
+    z-index: 99;
+    transition: 0.5s;
+    background-color: grey;
+}
